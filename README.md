@@ -11,6 +11,3 @@ PhishTrapX, .eml (email) dosyalarını analiz ederek phishing (oltalama) saldır
 ## Kullanım
 ```bash
 python3 phishtrapx_v0.3.py test.eml
-
-
-![image](https://github.com/user-attachments/assets/9cac6017-1911-47a2-a31a-b0d73bbcf258)
