@@ -1,0 +1,16 @@
+From: "Netflix Billing" <netflx-update@scammail.xyz>
+To: victim@example.com
+Subject: Action Required - Payment Failed
+Date: Fri, 28 Jun 2025 08:11:00 +0000
+Reply-To: help@netflixsupport.ru
+Return-Path: <phish@scammail.xyz>
+Message-ID: <xyz@scammail.xyz>
+Received-SPF: fail (scammail.xyz: domain does not designate ...)
+Authentication-Results: dkim=fail; dmarc=fail
+
+Dear Customer,
+
+We could not process your last payment. Please update your billing info immediately:
+http://netflix-billing-update[.]ru/login
+
+Netflix Support Team

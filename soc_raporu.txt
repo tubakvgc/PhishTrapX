@@ -1,0 +1,29 @@
+
+Merhaba,
+
+Öncelikle dikkatiniz ve geri bildiriminiz için teşekkür ederiz.
+
+**"--Caller left VM MSG 1:31 - minutes for Chris.lemay-
+ 9c357a648e643799185e7cf15624a5d7c52f1c94"** başlıklı e-posta tarafımızca teknik olarak incelenmiştir.
+
+Yapılan analiz sonucunda; iletide kullanılan kimlik doğrulama protokollerine (SPF, DKIM ve DMARC) ait kayıtların uyumsuzluk içerdiği tespit edilmiştir. Özellikle:
+
+- SPF kaydı **"SoftFail"** sonucu vermiştir. Bu, e-postanın gönderildiği IP adresinin, ilgili domain tarafından tanımlı yetkili bir kaynak olmadığını ancak tamamen reddedilmediğini gösterir. Olası spoofing riski barındırır.
+- DKIM imzası **bulunmamaktadır (None)**. Mail doğrulanmamıştır.
+- DMARC politikası **başarısız (Fail)** olarak sonuçlanmıştır. SPF ve DKIM geçerli olmadığı için e-posta karantinaya alınabilir.
+
+E-postada görünen gönderen adresi: [('Google voice', 'chris.lemay@stacktest.com')]
+Return-Path alanı: chris.lemay@stacktest.com
+
+E-posta içerisinde ayrıca "Reply-To" alanı olarak **Yok** adresi kullanılmıştır.
+Bu farklılık, kimlik sahtekarlığı (spoofing) veya dolandırıcılık amaçlı yönlendirme şüphesi oluşturabilir.
+
+Tehdit istihbarat kaynakları kullanılarak yapılan analizlerde, aşağıdaki IP adresleri ve alan adları sorgulanmıştır:
+• 🔎 VirusTotal (10.167.242.169) → Malicious: 0, Suspicious: 0, Harmless: 61
+• 🔎 VirusTotal (127.0.0.1) → Malicious: 0, Suspicious: 0, Harmless: 61
+• 🔎 VirusTotal (23.175.50.153) → Malicious: 0, Suspicious: 0, Harmless: 61
+• 🔎 VirusTotal (stacktest.com) → Malicious: 0, Suspicious: 0, Harmless: 64
+
+Sonuç olarak, bu e-postada doğrudan kötü niyetli bir aktiviteye dair belirgin bir bulguya rastlanmamıştır. Ancak kimlik doğrulama kontrollerindeki zayıflık nedeniyle benzer iletilere karşı dikkatli olunması tavsiye edilmektedir.
+
+Bilgilerinize sunarız.
