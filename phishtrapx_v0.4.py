@@ -12,7 +12,7 @@ try:
 except ImportError:
     extract_msg = None
 
-VT_API_KEY = "bf2e3ca70237006eb92b7b94ab30ad762eee084b49d0b926b4eb93da5179763f"
+VT_API_KEY = ""
 VT_DOMAIN_URL = "https://www.virustotal.com/api/v3/domains/"
 VT_IP_URL = "https://www.virustotal.com/api/v3/ip_addresses/"
 
